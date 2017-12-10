@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>管理信息系统课程设计 | MISP</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <#include "/inc/nav.ftl"/>
+		<@nav/>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">帮助</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">前端样式</div>
+                        <div class="panel-body">
+                            <p>前端样式采用Twitter推出的BootStrap框架。使用 Bootstrap样式模板sb-Admin2样式模板简化页面设计。</p>
+                        </div>
+                        <div class="panel-footer"><a href="http://www.bootcss.com/" class="btn btn-primary" role="button">BootStrap官网</a>&nbsp;<a href="https://startbootstrap.com/template-overviews/sb-admin-2/" class="btn btn-primary" role="button">sb-Admin2官网</a></div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">前端JS库 </div>
+                        <div class="panel-body">
+                            <p>采用快速、简洁的JavaScript框架jQuery。使用jQuery插件jquery.form.js、jquery.validate.js处理表单提交。</p>
+                        </div>
+                        <div class="panel-footer"><a href="http://jquery.com/" class="btn btn-primary" role="button">jQuery官网</a> </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">数据列表 </div>
+                        <div class="panel-body">
+                            <p>使用 jQuery 插件 datatables创建数据列表，使用datatables插件select扩展支持行选中。</p>
+                        </div>
+                        <div class="panel-footer"><a href="http://www.datatables.club/" class="btn btn-primary" role="button">datatables中文网</a> </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">模板引擎</div>
+                        <div class="panel-body">
+                            <p>使用FreeMarker模板引擎进行页面布局等</p>
+                        </div>
+                        <div class="panel-footer"><a href="http://freemarker.org/" class="btn btn-primary" role="button">FreeMaker官网</a></div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">弹出层</div>
+                        <div class="panel-body">
+                            <p>使用弹出层工具layer简化页面消息框弹出</p>
+                        </div>
+                       <div class="panel-footer"><a href="http://layer.layui.com/" class="btn btn-primary" role="button">Layer官网</a> </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">图形报表</div>
+                        <div class="panel-body">
+                            <p>使用js报表工具HighCharts绘制图形报表</p>
+                        </div>
+                        <div class="panel-footer"><a href="https://www.hcharts.cn/" class="btn btn-primary" role="button">HighChart中文网</a></div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">后台框架</div>
+                        <div class="panel-body">
+                            <p>使用JFinal3.1作为后台框架</p>
+                        </div>
+                        <div class="panel-footer"><a href="https://www.jfinal.com/" class="btn btn-primary" role="button">JFinal官网</a></div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading"> 访问控制</div>
+                        <div class="panel-body">                            
+                            <p>技术好可使用Shiro实现访问控制</p>
+                        </div>
+                        <div class="panel-footer"><a href="http://shiro.apache.org/" class="btn btn-primary" role="button">Shiro官网</a></div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">数据库</div>
+                        <div class="panel-body">
+                            <p>使用mysql数据库，Druid数据连接池。</p>
+                        </div>
+                        <div class="panel-footer"><a href="https://www.mysql.com/" class="btn btn-primary" role="button">Mysql官网</a>&nbsp;<a href="http://druid.io/" class="btn btn-primary" role="button">druid官网</a></div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">开发帮助 </div>
+                        <!-- .panel-heading -->
+                        <div class="panel-body">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">分层与目录</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                           <p>一、后端系统分层：</p>
+                                           <p>1 edu.mis.core包。系统核心包，本包用于放置架构通用的类。MispConfig是主要配置类，运行启动Jetty服务器。</p>                                
+                                           <p>2 edu.mis.model包。系统模型包，_JFinalModelGeneratorModel根据数据库表结构代码自动生成Model。本包的类可以修改，相当于DAO类。</p>
+                                           <p>3 edu.mis.model.base包。系统模型包，_JFinalModelGeneratorModel根据数据库表结构代码自动生成Pojo BaseModel。本包的类不可以修改。</p>
+                                           <p>4 edu.mis.modules包。应用模块包，每个模块包含Controller、Service、Interceptor等。建议按模块建立子包，有助于管理</p>                                          
+                                           <p>5 res目录：后端配置文件</p>
+                                           <p>注意：本项目后台采用按模块分包，也可考虑按层分包。即所有的Controller、Service放在一个包中。</p>
+                                           <p>二、前端Web目录：</p>
+                                           <p>1 admin目录：应用模块页面。建议下设子目录便于管理</p>
+                                           <p>2 data目录：与项目无关。是sbAdmin模板示例的数据文件</p>
+                                           <p>3 dist目录：存放项目css及js文件。</p>
+                                           <p>4 inc目录：前端页面布局的通用freemarker文件。foot为底部版权文件；head为项目css及js依赖，nav为导航</p>
+                                           <p>5 sbAdminSample目录：与项目无关。sbAdmin模板的示例页面，用于开发参考。</p>
+                                           <p>6 vendor：存放项目的库文件，包括sbAdmin的库文件</p>
+                                           <p>7 WEB-INF目录：项目依赖jar和web.xml。</p>
+                                           <p>注意：dist,vendor,data等目录命名和结构都为sbAdmin发布包。为了便于sbAdmin示例页面显示，本项目未予以修改或删除</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">前端设计</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>本项目前端采用bootstrap和jquery，使用了jquery的datagrid插件DataTables。</p>
+                                            <p>前端页面设计分为两部分：div+css，js</p>
+                                            <p>MIS开发中的前端设计基本上不用系统学习div+css+javascript或jquery，用到哪些学哪些就可以了。</p>
+                                            <p>1：div+css部分。系统开发不同于网页设计，这一部分比较简单，基本上参考sbAdmin示例能够实现。</p>
+                                            <p>2：js部分。jquery（包括DataTables）学习使用主要参考官方文档和官方例子。二者都有中文版。</p>
+                                            <p>MIS开发js学习重点在表单(form)、数据表格(datagrid)和ajax三部分。如遇困难可在git.oschina.net的开源项目中找些简单项目源码参考或百度相关教程。</p>
+                                            <p>web组件主要放在菜单、下拉款、表格、数据表格、树、输入框等。</p>
+                                            <p>注意：前端开发时建议js和div分离，不要混杂在一起。js可放在页面中，也可以独立文件。因为div和js的dom元素id要一致，为了便于检查，初学者建议放在一个页面。</p>                 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">后端开发</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>本项目后端开发框架为JFinal，该框架内使用简单，功能强大。开发之前建议先完整、快速阅读完JFinal开发手册，然后参考官方提供的demo或本项目的blog模块进行实践。</p>
+                                            <p>开发步骤（可参考本项目Blog模块）：</p>
+                                            <p>1：建立数据库表。建议每张表都设一个名字ID字段（所有表都用这个名字）作为主键，自动增长。不建议选择业务字段作主键</p>
+                                            <p>2：运行_JFinalModelGenerator自动生成Model和baseModel。Model相当于dao，本身提供一些基础的CRUD方法，也可增加其他方法，此外支持分页排序。BaseModel相当于setter&getter的Pojo类，不能修改</p>
+                                            <p>3：在_MappingKit中添加映射。参数分别是“表名”，“主键”，“模型类” </p>
+                                            <p>4：根据业务逻辑及项目需求确定是否需要Service层。个人倾向于设计Service层，代码结构更加清楚。数据库操作代码写在Model里，业务逻辑写在Service里</p>
+                                            <p>5：编写Controller。JFinal的Controller和SpringMVC比较相似。有的方法是关联视图，有的方法是调用模型。如有数据返回的应将后台返回的对象和集合转换成Json向页面传输数据。JFinal提供多个生成json的方法。</p>
+                                            <p>6：为Controller注册路由。可直接在MispConfig文件中注册，也可划分到多个类中便于管理。（如本项目为区分前后台，分为AdminRoutes和FrontRoutes）</p>
+                                            <p>7：根据需要可编写拦截器Interceptor、校验器validator等，具体用途参照官方手册。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            业务需求
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#home" data-toggle="tab">业务背景</a>
+                                </li>
+                                <li><a href="#profile" data-toggle="tab">业务流程</a>
+                                </li>
+                                <li><a href="#messages" data-toggle="tab">功能需求</a>
+                                </li>
+                                <li><a href="#settings" data-toggle="tab">非功能需求</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="home">
+                                    <h4>业务背景</h4>
+                                    <p>MISP项目目标是开发一个销售订单管理系统或收银系统。</p>
+                                    <p>项目的应用对象可以是零售店，如书店、服装店、奶茶店、美发店、快餐店、水果店等。也可以是其他具有销售或零售业务的公司。</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <h4>业务流程</h4>
+                                    <p>业务流程取决于应用对象的业务需求。例如“下订单——支付——仓库发货” 或者 “下订单——审核——仓库发货——支付”等。</p>
+                                    <p>MISP项目要求至少完成两个业务活动：下单——支付。</p>
+                                </div>
+                                <div class="tab-pane fade" id="messages">
+                                    <h4>功能需求</h4>
+                                   	<p>1 基础数据：商品类别的增删改查，商品的增删改查。要求有格式校验</p>
+                                   	<p>2 业务功能：下单，收款。有能力的小组可以开发更多的业务功能。</p>
+                                   	<p>3 查询功能：对业务数据（订单数据或收款数据）进行多字段查询。</p>
+                                   	<p>4 报表：系统能制作两种报表。销售月报表，起止时间商品销售统计。</p>
+                                   	<p>5 权限：系统提供用户登录及访问控制功能。</p>                              	
+                                </div>
+                                <div class="tab-pane fade" id="settings">
+                                    <h4>非功能需求</h4>
+                                    <p>1 架构：架构合理，遵循“View-Controller-Service-Dao-DB”逻辑架构。</p>
+                                    <p>2 界面：界面友好，采用UI框架。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">文档撰写</div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#home-pills" data-toggle="tab">撰写内容</a>
+                                </li>
+                                <li><a href="#profile-pills" data-toggle="tab">UML建模</a>
+                                </li>
+                                <li><a href="#messages-pills" data-toggle="tab">文档模板</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="home-pills">
+                                    <h4>撰写内容</h4>
+                                    <p>1 系统分析：包括功能需求分析与建模，OOA等</p>
+                                    <p>2 系统设计：包括架构设计、OOD，输入输出设计、访问控制设计等</p>
+                                    <p>3 系统实现：包括程序实现成果截图、测试等</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile-pills">
+                                    <h4>UML建模</h4>
+                                     <p>采用面向对象分析与设计进行建模。使用UML2.0及相关CASE工具绘制模型。</p>
+                                      <p>1 OOA: 用例图，领域模型。</p>
+                                      <p>2 OOD: 类图，顺序图。</p>
+                                </div>
+                                <div class="tab-pane fade" id="messages-pills">
+                                    <h4>文档模板</h4>
+                                    <p>课程提供开发文档撰写的参考模板。</p>
+                                    <p>下载地址</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="well well-lg">
+                        <h4>项目管理</h4>
+                        <p>项目组共有四个角色，包括分析员、架构师、程序员、测试员，每组成员4人，分别担任一个角色。选择一人担任项目经理。项目在git.oschina.net托管。</p>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="well well-lg">
+                        <h4>开发过程</h4>
+                        <p>参照UP进行迭代开发。共6个迭代，2周1迭代，分散到12周进行。迭代任务分别为1搭建核心架构、2基础数据、3业务用例一、4业务用例二、5报表、6权限。</p>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="well well-lg">
+                        <h4>课程考核</h4>
+                        <p>个人态度与贡献20%、程序评价40%、文档评价40%。程序评价包括基础数据、业务功能、权限和报表，文档评价包括结构、内容、质量。</p>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+           
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

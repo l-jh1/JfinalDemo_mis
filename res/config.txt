@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://localhost/mispdb?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password =1234
+devMode = true
